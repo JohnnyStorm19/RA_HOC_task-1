@@ -1,5 +1,5 @@
 import React from "react";
-import * as dayjs from 'dayjs'
+import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
 
 export function HOC(Component: React.ComponentType<{date:string}>, date: string) {
